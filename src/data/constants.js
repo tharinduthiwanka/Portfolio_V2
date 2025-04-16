@@ -459,3 +459,26 @@ export const certifications = [
     desc: "This is a placeholder description for the third certification without a credential link.",
   }
 ];
+
+export const research = [
+  {
+    id: 0,
+    title: "Automated Grading and Feedback Generation", // Mapped from role
+    publication: "MSc Final Year Research", // Mapped from company
+    date: "June 2023 - June 2024", // Copied from experience
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543", // Copied from experience
+    desc: "Conducted a comprehensive analysis based on Revolutionizing Education on automating educational assessments,evaluating technologies and methodologies for automated grading and feedback generation (EduAI concept).", // Copied from experience
+    // link: experience.doc // Map doc to link if needed, none in this example
+  },
+  {
+    id: 1, // Use a different ID
+    title: "KidLand: AR-Based Approach for Smart Ordering", // Mapped from role
+    publication: "BSc Final Year Research", // Mapped from company
+    date: "Oct 2020 - Mar 2021",
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad", // Copied from experience
+    desc: "Development of Kidland mobile application utilizing Augmented Reality (AR) to create an innovative smart ordering experience within toy stores. Led the implementation of advanced AR interactions using ARKit/ARCore,Unity, Vuforia to enhance customer engagement and streamline the ordering process.", // Copied from experience
+    doi: "10.1109/ICITR54349.2021.9657326", // Added DOI
+    // link: experience.doc // Map doc to link if needed, none in this example
+  },
+  // Add more dummy items if needed, following the structure
+];

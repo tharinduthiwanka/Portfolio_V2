@@ -12,7 +12,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-import Certifications from './components/Certifications'; // Import Certifications component
+import Certifications from './components/Certifications';
+import Research from './components/Research'; // Import Research component
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 
@@ -44,7 +45,8 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
-            <Certifications /> {/* Add Certifications component here */}
+            <Certifications />
+            <Research /> {/* Add Research component here */}
             <Contact />
           </Wrapper>
           <Footer />
