@@ -6,7 +6,7 @@ const Document = styled.img`
     display: none;
     height: 125px;  /* Corrected height */
     width: 285px; /* Corrected base width */
-    background-color: #000;
+    /* Removed background-color: #000; */
     border-radius: 10px;
     &:hover{
         cursor: pointer;
@@ -44,7 +44,7 @@ const Card = styled.div`
     padding: 12px 16px;
     justify-content: space-between;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; /* Restore overflow hidden */
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -61,7 +61,7 @@ const Card = styled.div`
 
     /* Keep hover effects for consistency */
     &:hover ${Document}{
-        display: flex;
+        display: block; /* Change display from flex to block for img */
     }
 
     &:hover ${Span}{

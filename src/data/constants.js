@@ -1,3 +1,5 @@
+import az900Image from '../images/az-900.JPG';
+
 export const Bio = {
   name: "Tharindu Ranasinghe",
   roles: [
@@ -434,7 +436,7 @@ export const certifications = [
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/150px-Microsoft_Azure.svg.png", // Placeholder image
     issuingOrg: "Microsoft",
     credentialID: "832B488568704D8C",
-    credentialImg: "https://th.bing.com/th/id/R.35897a59aa3682db57989ac0f32ffc1f?rik=fZolSggWHExnKA&pid=ImgRaw&r=0https://media.licdn.com/dms/image/C4E12AQEZsvUwoYIrzw/article-cover_image-shrink_600_2000/0/1624964650465?e=2147483647&v=beta&t=Tgg4uwznpFmgUSPXaDMU12zGKeReHIt8tWiWmEtSvEY", // Placeholder image link
+    credentialImg: az900Image, // Use imported image variable
     credentialURL: "https://learn.microsoft.com/api/credentials/share/en-us/TharinduRanasinghe-4116/832B488568704D8C?sharingId=BFF6F9ED815CE3A0", // Placeholder link
     desc: "This is a placeholder description for the first certification.",
   },
