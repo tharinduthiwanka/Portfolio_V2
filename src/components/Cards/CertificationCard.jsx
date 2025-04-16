@@ -4,13 +4,16 @@ import styled from 'styled-components'
 // Reusing Document style, maybe rename later if needed
 const Document = styled.img`
     display: none;
-    height: 70px;
-    width: fit-content;
+    height: 125px;  /* Corrected height */
+    width: 285px; /* Corrected base width */
     background-color: #000;
     border-radius: 10px;
     &:hover{
         cursor: pointer;
         opacity: 0.8;
+    }
+    @media only screen and (max-width: 768px){
+        width: 250px; /* Reduced width again for mobile */
     }
 `
 
@@ -139,7 +142,7 @@ const CertificationCard = ({ certification }) => {
             {/* Optional document link */}
             {certification.credentialID && (
                  <a href={certification.credentialURL} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <Document src={certification.img} /> {/* Reusing image for now, could be a generic doc icon */}
+                    <Document src={certification.credentialImg} /> {/* Reusing image for now, could be a generic doc icon */}
                     <div style={{fontSize: '12px', color: '#854CE6', marginTop: '4px'}}>Credential ID: {certification.credentialID}</div>
                  </a>
             )}

@@ -428,13 +428,14 @@ export const certificationCategories = ['all', 'Azure', 'AWS', 'Linux', 'Other']
 export const certifications = [
   {
     id: 0,
-    title: "Placeholder Certification 1",
+    title: "AZ-900 Microsoft Azure Fundamentals",
     category: 'Azure', // Added category
-    date: "Jan 2024",
-    img: "https://via.placeholder.com/150/854CE6/FFFFFF?text=Cert1", // Placeholder image
-    issuingOrg: "Placeholder Org 1",
-    credentialID: "PLACEHOLDER123",
-    credentialURL: "#", // Placeholder link
+    date: "February 2025",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/150px-Microsoft_Azure.svg.png", // Placeholder image
+    issuingOrg: "Microsoft",
+    credentialID: "832B488568704D8C",
+    credentialImg: "https://th.bing.com/th/id/R.35897a59aa3682db57989ac0f32ffc1f?rik=fZolSggWHExnKA&pid=ImgRaw&r=0https://media.licdn.com/dms/image/C4E12AQEZsvUwoYIrzw/article-cover_image-shrink_600_2000/0/1624964650465?e=2147483647&v=beta&t=Tgg4uwznpFmgUSPXaDMU12zGKeReHIt8tWiWmEtSvEY", // Placeholder image link
+    credentialURL: "https://learn.microsoft.com/api/credentials/share/en-us/TharinduRanasinghe-4116/832B488568704D8C?sharingId=BFF6F9ED815CE3A0", // Placeholder link
     desc: "This is a placeholder description for the first certification.",
   },
   {
