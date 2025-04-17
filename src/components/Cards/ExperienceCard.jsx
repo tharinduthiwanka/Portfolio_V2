@@ -65,8 +65,14 @@ const Card = styled.div`
 
     }
 
-    border: 0.1px solid #306EE8;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    /* Conditional border and shadow based on theme */
+    border: ${({ theme }) => theme.card === '#FFFFFF' ? '0.1px solid #854CE6' : '0.1px solid #306EE8'}; /* Updated light mode border */
+    box-shadow: ${({ theme }) => theme.card === '#FFFFFF' ? 'none' : 'rgba(23, 92, 230, 0.15) 0px 4px 24px'};
+
+    &:hover{
+        box-shadow: ${({ theme }) => theme.card === '#FFFFFF' ? 'none' : '0px 0px 20px rgba(0,0,0,0.2)'};
+        transform: translateY(-5px);
+    }
 `
 
 const Top = styled.div`

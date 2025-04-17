@@ -21,7 +21,8 @@ const Card = styled.div`
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
+    border: ${({ theme }) => theme.card === '#FFFFFF' ? '0.1px solid #854CE6' : 'none'}; /* Updated light mode border */
+    box-shadow: ${({ theme }) => theme.card === '#FFFFFF' ? 'none' : '0 0 12px 4px rgba(0,0,0,0.4)'};
     overflow: hidden;
     padding: 26px 20px;
     display: flex;
@@ -30,7 +31,7 @@ const Card = styled.div`
     transition: all 0.5s ease-in-out;
     &:hover {
         transform: translateY(-10px);
-        box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
+        box-shadow: ${({ theme }) => theme.card === '#FFFFFF' ? 'none' : '0 0 50px 4px rgba(0,0,0,0.6)'};
         filter: brightness(1.1);
     }
     &:hover ${Button} {
@@ -59,7 +60,7 @@ const Tag = styled.span`
     font-size: 12px;
     font-weight: 400;
     color: ${({ theme }) => theme.primary};
-    background-color: ${({ theme }) => theme.primary + 15};
+    background-color: ${({ theme }) => theme.card === '#FFFFFF' ? '#b515d130' : theme.primary + 15}; /* Updated light mode background again */
     padding: 2px 8px;
     border-radius: 10px;
 `

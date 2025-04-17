@@ -1,4 +1,4 @@
-export const darkTheme = {
+zexport const darkTheme = {
     bg:"#1C1C27",
     bgLight: "#1C1E27",
     primary:"#854CE6",
@@ -18,5 +18,6 @@ export const lightTheme = {
     text_primary:"#111111",
     text_secondary:"#48494a",
     card:"#FFFFFF",
+    card_light: '#FFFFFF', // Added for Navbar background in light mode
     button:"#5c5b5b",
 }

@@ -21,6 +21,7 @@ const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
   overflow-x: hidden;
+  transition: background-color 0.3s ease-in-out; // Add transition for smooth background change
 `
 
 const Wrapper = styled.div`
@@ -35,7 +36,7 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
-        <Navbar />
+        <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Body>
           <HeroSection />
           <Wrapper>
