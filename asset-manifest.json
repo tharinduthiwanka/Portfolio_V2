@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio_V2/static/css/main.bf538fe7.css",
-    "main.js": "/Portfolio_V2/static/js/main.44c12115.js",
+    "main.js": "/Portfolio_V2/static/js/main.b68d0042.js",
     "static/media/HeroImage.jpg": "/Portfolio_V2/static/media/HeroImage.02abb0a6908aa02c1b5a.jpg",
+    "static/media/DevOps_prerequisite.JPG": "/Portfolio_V2/static/media/DevOps_prerequisite.6f1f5d660b771f19ddd2.JPG",
+    "static/media/Git-Basics.JPG": "/Portfolio_V2/static/media/Git-Basics.5174756ac3cc92ddf0fd.JPG",
     "static/media/az-900.JPG": "/Portfolio_V2/static/media/az-900.ff1e49f9356e9ebe1656.JPG",
     "index.html": "/Portfolio_V2/index.html",
     "main.bf538fe7.css.map": "/Portfolio_V2/static/css/main.bf538fe7.css.map",
-    "main.44c12115.js.map": "/Portfolio_V2/static/js/main.44c12115.js.map"
+    "main.b68d0042.js.map": "/Portfolio_V2/static/js/main.b68d0042.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.44c12115.js"
+    "static/js/main.b68d0042.js"
   ]
 }
