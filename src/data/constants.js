@@ -266,9 +266,9 @@ export const projects = [
       },
       {
         name: "Chamod Dilshan",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        img: "https://avatars.githubusercontent.com/u/8851188?v=4",
+        linkedin: "#",
+        github: "https://github.com/chamod0",
       },
     ],
   },
@@ -437,9 +437,9 @@ export const certifications = [
   },
   {
     id: 1,
-    title: "Placeholder Certification 2",
-    category: 'AWS', // Added category
-    date: "Feb 2024",
+    title: "AZ-104 Microsoft Azure Administrator",
+    category: 'Azure', // Added category
+    date: "Reading",
     img: "https://via.placeholder.com/150/854CE6/FFFFFF?text=Cert2", // Placeholder image
     issuingOrg: "Placeholder Org 2",
     credentialID: "PLACEHOLDER456",
