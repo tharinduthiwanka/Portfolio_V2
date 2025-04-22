@@ -139,12 +139,21 @@ const CertificationCard = ({ certification }) => {
                 {/* Optional description */}
                 {certification.desc && <Span>{certification.desc}</Span>}
             </Description>
-            {/* Optional document link */}
-            {certification.credentialID && (
-                 <a href={certification.credentialURL} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <Document src={certification.credentialImg} /> {/* Reusing image for now, could be a generic doc icon */}
-                    <div style={{fontSize: '12px', color: '#854CE6', marginTop: '4px'}}>Credential ID: {certification.credentialID}</div>
-                 </a>
+            {/* Render credential image if it exists */}
+            {certification.credentialImg && (
+                <>
+                    {certification.credentialURL ? (
+                        <a href={certification.credentialURL} target="_blank" rel="noopener noreferrer">
+                            <Document src={certification.credentialImg} />
+                        </a>
+                    ) : (
+                        <Document src={certification.credentialImg} />
+                    )}
+                    {/* Render credential ID separately if it exists */}
+                    {certification.credentialID && (
+                        <div style={{fontSize: '12px', color: '#854CE6', marginTop: '4px'}}>Credential ID: {certification.credentialID}</div>
+                    )}
+                </>
             )}
         </Card>
     )

@@ -1,4 +1,6 @@
 import az900Image from '../images/az-900.JPG';
+import GitBasicsImage from '../images/certificates/Git-Basics.JPG'; // Import the image for Git Basics
+import DevOpsPrereqImage from '../images/certificates/DevOps_prerequisite.JPG'; // Import the image for DevOps Prerequisite
 
 export const Bio = {
   name: "Tharindu Ranasinghe",
@@ -448,13 +450,27 @@ export const certifications = [
   },
   {
     id: 2,
-    title: "Placeholder Certification 3",
+    title: "Git Basics for DevOps",
     category: 'Other', // Added category
-    date: "Mar 2024",
-    img: "https://via.placeholder.com/150/854CE6/FFFFFF?text=Cert3", // Placeholder image
-    issuingOrg: "Placeholder Org 3",
-    // No credential ID/URL for this one
-    desc: "This is a placeholder description for the third certification without a credential link.",
+    date: "Jan 2025",
+    img: "https://cdn.asp.events/CLIENT_CloserSt_D86EA381_5056_B739_5482D50A1A831DDD/sites/CEAS-2022/media/libraries/exhibitors/4b63e942-283c-11ed-b13-0a410bd8e1d9-logo.png", // Placeholder image
+    issuingOrg: "KodeKloud",
+    credentialImg: GitBasicsImage, // Use imported image variable
+    credentialURL: "https://coursera.org/share/b2880005dacbd9d6d94994875434e919", // Placeholder link
+    // No credential ID for this one
+    desc: "Completed the basics of Git and GitHub, including version control, branching, and collaboration.", // Placeholder description
+  },
+  {
+    id: 3,
+    title: "DevOps Prerequisite Course",
+    category: 'Other', // Added category
+    date: "Jan 2025", // Placeholder date
+    img: "https://cdn.asp.events/CLIENT_CloserSt_D86EA381_5056_B739_5482D50A1A831DDD/sites/CEAS-2022/media/libraries/exhibitors/4b63e942-283c-11ed-b13-0a410bd8e1d9-logo.png", // Placeholder image (same as Git Basics for now)
+    issuingOrg: "KodeKloud",
+    credentialImg: DevOpsPrereqImage, // Use imported image variable
+    credentialURL: "https://coursera.org/share/4d5bc8867c67433aaee8b16fcc2ee919", // Placeholder link
+    // No credential ID or URL for this one
+    desc: "Completed the prerequisite course covering essential DevOps concepts.", // Placeholder description
   }
 ];
 
