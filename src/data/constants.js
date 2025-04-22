@@ -227,41 +227,36 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    title: "KidLand: AR-Based Approach for Smart Ordering",
+    date: "Jun 2019 - Jul 2021",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "Development of Kidland mobile application utilizing Augmented Reality (AR) to create an innovative smartordering experience within toy stores. Led the implementation of advanced AR interactions using ARKit/ARCore,Unity, Vuforia to enhance customer engagement and streamline the ordering process.",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "C++",
+      "Java",
+      "ARcore",
+      "ARKit",
+      "Vuforia",
+      "Unity",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "#",
+    webapp: "#",
   },
   {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "HealthCare Hospital Management System",
+    date: "Apr 2019",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Developed a Hospital Management System using Java and Jersey REST API, focused on efficient workforceadministration within healthcare domain.",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    tags: [" Java", "Jersey", "REST API", "MySQL"],    
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/tharinduthiwanka/HelthCare-online-hospital-management-system-",
+    webapp: "#",
     member: [
       {
         name: "Tharindu Ranasinghe",
@@ -270,7 +265,7 @@ export const projects = [
         github: "https://github.com/rishavchanda/",
       },
       {
-        name: "Upasana Chaudhuri",
+        name: "Chamod Dilshan",
         img: "https://avatars.githubusercontent.com/u/100614635?v=4",
         linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
         github: "https://github.com/upasana0710",
@@ -279,36 +274,36 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "BIMAK Online Clothing Store",
+    date: "Oct 2019",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Developed a comprehensive web application for a clothing store client to streamline operations across inventory,employee records, user accounts, shopping carts, delivery logistics, vehicle tracking, financial transactions, ande mployee management.",
     image:
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "PHP",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SQL",
+      "Bootstrap",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/tharinduthiwanka/OnlineClothingStore-BimakTshirt",
+    webapp: "#",
   },
   {
     id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
+    title: "BookEasy Android App",
+    date: "Jan 2018",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "Developed a restaurant based Android mobile app with a seamless user experience for table reservations andonline food ordering through the application.",
     image:
       "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
+    tags: ["Java", "Firebase", "Android Studio",],
+    category: "android app",
+    github: "https://github.com/tharinduthiwanka/BookEasy",
+    webapp: "#",
     member: [
       {
         name: "Tharindu Ranasinghe",
@@ -317,7 +312,7 @@ export const projects = [
         github: "https://github.com/rishavchanda/",
       },
       {
-        name: "Upasana Chaudhuri",
+        name: "Pasindu Navodya",
         img: "https://avatars.githubusercontent.com/u/100614635?v=4",
         linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
         github: "https://github.com/upasana0710",
@@ -326,17 +321,17 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
+    title: "Weather Forecast Application",
+    date: "Dec 2021",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "Developed an application utilizing React to ascertain the prevailing temperature of a specific country inRealtime.",
     image:
       "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+    tags: ["ReactJS", "Firebase", "API", "Axios"],
     category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  },
+    github: "https://github.com/tharinduthiwanka/WeatherApp",
+    webapp: "#",
+  },/*
   {
     id: 10,
     title: "Job Finding App",
@@ -414,7 +409,7 @@ export const projects = [
     category: "machine learning",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  },
+  },*/
 ];
 
 export const TimeLineData = [
